@@ -17,7 +17,7 @@ agent = Agent(
 
 async def main():
     async with agent.run_mcp_servers():
-        result = await agent.run("extract the content and summarize it: https://www.drishtiias.com/daily-updates/daily-news-analysis/india-us-relations-5")
+        result = await agent.run("extract the content and summarize it:https://indiankanoon.org/doc/666119/")
         output = result.output
         return output
     
